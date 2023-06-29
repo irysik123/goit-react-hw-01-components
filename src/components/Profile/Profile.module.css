@@ -1,0 +1,58 @@
+.profileCard{
+    width: 250px;
+    margin: 0;
+    border: 2px solid black;
+    text-align: center;
+}
+.description {
+    border: 5px;
+    border-color: blueviolet;
+    background-color: #fff;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    gap: 15px;
+    align-items: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.stats {
+    margin: 0;
+    background-color:rgb(202, 210, 209);
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items:center;
+    justify-content: center;
+    border-top: 1px solid black;
+    align-content: space-between;
+    padding: 15px;
+
+
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+
+.label {
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    padding-bottom: 10px;
+}
+
+.quantity {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 16px;
+}
+
+.avatar {
+    position: relative; 
+}
