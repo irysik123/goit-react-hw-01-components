@@ -1,0 +1,25 @@
+.statisticsContainer {
+  width: 250px;
+  margin: 0 auto;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.statistics {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.percentage {
+  margin-left: 20px;
+}
+
+.statList {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
