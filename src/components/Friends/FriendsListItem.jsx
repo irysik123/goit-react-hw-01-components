@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 
 export const FriendListItem = ({avatar, name, isOnline}) => {
     const getOnlineStatus = status => {
-        let userStatus = ""
-        if(status !== true) {
-            userStatus = "online"
-        } else {
-            userStatus = "offline"
-        }
-        return userStatus
-    } 
+    let userStatus = ""
+    if(status !== true) {
+        userStatus = "online"
+    } else {
+        userStatus = "offline"
+    }
+    return userStatus
+} 
     return (
         <li className={css.item}>
           <span className={`${css.status} ${css[getOnlineStatus(isOnline)]}`}></span>
